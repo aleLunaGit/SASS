@@ -1,0 +1,28 @@
+$yBase:#F8FF00;
+$gBase: #489E4B;
+
+.contact-container {
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 40px repeat(4, 200px);
+}
+
+.contactsec {
+    grid-column: 1 / 4;
+    grid-row: 3 / 6;
+    background-color: $gBase;
+    border: 2px $yBase solid;
+    margin: 100px 50px 150px 50px;
+    h2 {
+        text-align: center;
+    }
+}
+
+.contactform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
